@@ -5,3 +5,4 @@ Ini Fitur 1 yang lagi kepanasan
 panas kah?
 iyaa
 masa si?
+mau makan apa nanti?
