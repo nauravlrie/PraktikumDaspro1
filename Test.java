@@ -5,5 +5,6 @@ public class Test {
         System.out.println("User nabila menambahkan baris baru");
         System.out.println("User alice menambahkan");
         System.out.println("User nazera menambahkan baris baru");
+        System.out.println("HAIII");
     }
 }
