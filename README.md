@@ -6,3 +6,4 @@ panas kah?
 iyaa
 masa si?
 mau makan apa nanti?
+makan bakso
