@@ -11,12 +11,46 @@ public class ifCetakKRSNo11 {
         System.out.println("Apakah UKT sudah lunas? (true/false); ");
         boolean uktLunas = sc.nextBoolean();
 
+        String pesan = uktLunas ? "Pembayaran UKT terverifikasi" : "Registrasi ditolak. Silahkan lunasi UKT terlebih dahulu";
+        System.out.println(pesan);
+
         if (uktLunas) {
-            System.out.println("Pembayaran UKT terverifikasi");
-            System.out.println("Silahkan cetak KRS dan minta tanda tangan DPA");
-        } else {
-            System.out.println("Registrasi ditolak. Silahkan lunasi UKT terlebih dahulu");
-        
+            System.out.println("Masukkan semester saat ini: ");
+            int semester = sc.nextInt();
+
+            switch (semester) {
+             case 1:
+                    System.out.println("KRS Semester 1 ditampilkan");
+                    break;
+                case 2:
+                    System.out.println("KRS Semester 2 ditampilkan");
+                    break;
+                case 3:
+                    System.out.println("KRS Semester 3 ditampilkan");
+                    break;
+                case 4:
+                    System.out.println("KRS Semester 4 ditampilkan");
+                    break;
+                case 5:
+                    System.out.println("KRS Semester 5 ditampilkan");
+                    break;
+                case 6:
+                    System.out.println("KRS Semester 6 ditampilkan");
+                    break;
+                case 7:
+                    System.out.println("KRS Semester 7 ditampilkan");
+                    break;
+                case 8:
+                    System.out.println("KRS Semester 8 ditampilkan");
+                    break;
+                default:
+                    System.out.println("Semester tidak valid");
+            }
+            System.out.println("Silahkan minta tanda tangan DPA");
         }
+
+        sc.close();
     }
-}
+}   
+        
+       
