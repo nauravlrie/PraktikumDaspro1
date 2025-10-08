@@ -13,13 +13,39 @@ public class CM1_11 {
     //Fungsi untuk mengubah nilai angka menjadi nilai huruf
     public static String konversiNilaiHuruf(double nilai) {
         //Menentukan nilai huruf berdasarkan kisaran nilai akhir
-        if (nilai > 80) return "A";
-        else if (nilai > 73) return "B+";
-        else if (nilai >= 65) return "B";
-        else if (nilai >= 60) return "C+";
-        else if (nilai >= 50) return "C";
-        else if (nilai >= 39) return "D";
-        else return "E"; //Nilai paling rendah
+       // Bagian ini lebih rinci dan mudah dibaca
+        if (nilai >= 80 && nilai <= 100) {
+            // Nilai 80–100 dianggap sangat baik
+            return "A";
+        } 
+        else if (nilai >= 74 && nilai < 80) {
+            // Nilai 74–79 mendapat B+
+            return "B+";
+        } 
+        else if (nilai >= 65 && nilai < 74) {
+            // Nilai 65–73 mendapat B
+            return "B";
+        } 
+        else if (nilai >= 60 && nilai < 65) {
+            // Nilai 60–64 mendapat C+
+            return "C+";
+        } 
+        else if (nilai >= 50 && nilai < 60) {
+            // Nilai 50–59 mendapat C
+            return "C";
+        } 
+        else if (nilai >= 39 && nilai < 50) {
+            // Nilai 39–49 mendapat D
+            return "D";
+        } 
+        else if (nilai >= 0 && nilai < 39) {
+            // Nilai di bawah 39 termasuk E
+            return "E";
+        } 
+        else {
+            // Untuk menangani input yang tidak valid (misal >100 atau <0)
+            return "Nilai tidak valid";
+        }
     }
 
     //Fungsi untuk menentukan apakah mahasiswa lulus atau tidak
