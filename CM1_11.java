@@ -43,11 +43,10 @@ public class CM1_11 {
             return "E";
         } 
         else {
-            // Untuk menangani input yang tidak valid (misal >100 atau <0)
+            // Jika nilai di luar jangkauan (misalnya >100 atau negatif)
             return "Nilai tidak valid";
         }
     }
-
     //Fungsi untuk menentukan apakah mahasiswa lulus atau tidak
     public static String statusKelulusan(double nilaiAkhir) {
         //Jika nilai akhir >= 60 maka "LULUS", selain itu "TIDAK LULUS"
