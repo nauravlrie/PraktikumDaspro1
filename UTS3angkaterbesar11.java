@@ -1,5 +1,5 @@
 import java.util.Scanner;
-import java.util.Arrays; // digunakan untuk mengurutkan angka
+import java.util.Arrays; // saya ingin memasukkan urutan angkanya juga
 
 public class UTS3angkaterbesar11 {
     public static void main(String[] args) {
