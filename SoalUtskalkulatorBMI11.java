@@ -21,7 +21,7 @@ public class SoalUtskalkulatorBMI11 {
             double tinggi = Double.parseDouble(inputTinggi);
 
             if (berat <= 0 || tinggi <= 0) {
-                System.out.println("\n❌ Nilai berat dan tinggi harus lebih besar dari 0.");
+                System.out.println("Nilai berat dan tinggi harus lebih besar dari 0.");
             } else {
                 // menghitung BMI
                 double bmi = calculateBMI(berat, tinggi);
