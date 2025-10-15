@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.util.Arrays; //saya ingin mendapatkan urutannya juga sehingga saya menambahkan array 
  //untuk mengetahui urutan angka dari yang terkecil hingga terbesar
 
-public class UTS3angkaterbesar11 {
+public class SoalUtsmenentukan3angkaterbesar11 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -67,3 +67,4 @@ public class UTS3angkaterbesar11 {
         input.close();
     }
 }
+
