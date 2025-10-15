@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.text.DecimalFormat;
 
-public class SoalUtsBonusKaryawan11_NoWhile {
+public class SoalUtsBonusKaryawan11 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
