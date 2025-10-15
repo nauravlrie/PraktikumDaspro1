@@ -54,7 +54,7 @@ public class SoalUtskalkulatorBMI11 {
             }
         } 
         else {
-            System.out.println("\n❌ Input tidak valid! Harap masukkan angka (contoh: 60 atau 1.75).");
+            System.out.println(" Input tidak valid! Harap masukkan angka (contoh: 60 atau 1.75).");
         }
 
         scanner.close();
