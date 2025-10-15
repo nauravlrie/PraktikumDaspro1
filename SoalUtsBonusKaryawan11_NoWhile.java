@@ -16,11 +16,11 @@ public class SoalUtsBonusKaryawan11_NoWhile {
         System.out.print("Masukkan gaji pokok (Rp): ");
         double gajiPokok = input.nextDouble();
 
-        input.nextLine(); // membersihkan buffer
+        input.nextLine(); 
         System.out.print("Apakah memiliki sertifikasi profesional? (ya/tidak): ");
         String sertifikasi = input.nextLine().trim().toLowerCase();
 
-        // === Validasi input (tanpa while, hanya dengan if-else) ===
+        // Validasi input 
         if (nilaiKinerja < 1 || nilaiKinerja > 100) {
             System.out.println("Nilai kinerja harus antara 1 dan 100.");
         } else if (lamaBekerja < 0) {
